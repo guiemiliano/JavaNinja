@@ -5,19 +5,26 @@ public class Main {
         naruto.nome = "Naruto Uzumaki";
         naruto.aldeia = "Aldeia da folha";
         naruto.idade = 17;
-        String euSou = naruto.euSouNinja();
-        System.out.println(euSou);
+
 
 
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.aldeia = "Aldeia da folha";
         sasuke.idade = 18;
-        int sasukeHokage = sasuke.anosParaSeTornarHokage(60);
-        System.out.println("Você tem " + sasuke.idade + " anos e faltam " +
-                sasukeHokage + " anos para ter a idade mínima para ser Hokage");
+        sasuke.mostrarAtributos();
 
-        sasuke.ativarSharingan();
+        Haruno sakura = new Haruno();
+        sakura.nome = "Sakura Haruno";
+        sakura.aldeia = "Aldeia da folha";
+        sakura.idade = 18;
+        sakura.mostrarAtributos();
+
+        Hyuga hinata = new Hyuga();
+        hinata.nome = "Hinata Hyuga";
+        hinata.aldeia = "Aldeia da folha";
+        hinata.idade = 16;
+
 
 
 
