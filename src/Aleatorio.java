@@ -1,7 +1,7 @@
 import java.util.Random;
 public class Aleatorio {
 
-    //Mini projeto gerador de frases, fiz usando pesquisas em livros e na internet!
+    //Mini projeto gerador de frases, fiz usando pesquisas em livros e na internet!!
 
     public static void main(String[] args) {
         String[] wordListOne = {"Paz", "Alegria", "Felicidade"};
