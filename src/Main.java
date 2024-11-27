@@ -9,15 +9,16 @@ public class Main {
         System.out.println(euSou);
 
 
-        Ninja sasuke = new Ninja();
+        Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.aldeia = "Aldeia da folha";
         sasuke.idade = 18;
         int sasukeHokage = sasuke.anosParaSeTornarHokage(60);
-        System.out.println(sasukeHokage);
-
+        System.out.println("Você tem " + sasuke.idade + " anos e faltam " +
+                sasukeHokage + " anos para ter a idade mínima para ser Hokage");
 
         sasuke.ativarSharingan();
+
 
 
     }
