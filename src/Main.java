@@ -5,7 +5,8 @@ public class Main {
         naruto.nome = "Naruto Uzumaki";
         naruto.aldeia = "Aldeia da folha";
         naruto.idade = 17;
-        System.out.println(naruto.euSouNinja());
+        String euSou = naruto.euSouNinja();
+        System.out.println(euSou);
 
 
         Ninja sasuke = new Ninja();
