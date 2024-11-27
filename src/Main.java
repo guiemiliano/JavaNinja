@@ -13,6 +13,9 @@ public class Main {
         sasuke.nome = "Sasuke Uchiha";
         sasuke.aldeia = "Aldeia da folha";
         sasuke.idade = 18;
+        int sasukeHokage = sasuke.anosParaSeTornarHokage(60);
+        System.out.println(sasukeHokage);
+
 
         sasuke.ativarSharingan();
 
