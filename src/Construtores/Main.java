@@ -7,6 +7,7 @@ public class Main {
         hashirama.nome = "Hashirama Senju";
         hashirama.idade = 56;
         hashirama.vivoOuNao = false;
+        hashirama.sabedoriaHokage();
 
         Senju tobirama = new Senju("Tobirama Senju", 45, false);
 

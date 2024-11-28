@@ -2,6 +2,11 @@ package Construtores;
 
 public class Senju extends Hokage{
 
+    @Override
+    public void sabedoriaHokage() {
+        System.out.println(nome + " ganhou a sabedoria de um Hokage");
+    }
+
     public Senju() {
     }
 

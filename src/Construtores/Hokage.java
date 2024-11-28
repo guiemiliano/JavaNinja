@@ -34,4 +34,6 @@ public abstract class Hokage {
         this.saldoBancario = saldoBancario;
         this.altura = altura;
     }
+
+    public  abstract void sabedoriaHokage();
 }
