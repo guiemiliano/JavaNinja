@@ -12,12 +12,15 @@ public class Main {
 
         Uchiha itachi = new Uchiha("Itachi Uchiha", "Aldeia da Folha", 29);
         itachi.nomeDoNinja();
+        itachi.tacarShuriken();
 
         Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.aldeia =  "Aldeia da folha";
         naruto.idade = 16;
         naruto.nomeDoNinja();
+        naruto.tacarShuriken();
+        naruto.tacarKunai();
 
 
     }

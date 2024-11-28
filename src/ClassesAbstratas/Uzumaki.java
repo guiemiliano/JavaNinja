@@ -1,6 +1,6 @@
 package ClassesAbstratas;
 
-public class Uzumaki extends Ninja{
+public class Uzumaki extends Ninja implements NinjaInterface{
     public Uzumaki() {
     }
 
@@ -11,5 +11,10 @@ public class Uzumaki extends Ninja{
     @Override
     public void nomeDoNinja() {
         System.out.println("Meu nome é : " + nome + " método da classe UZUMAKI");
+    }
+
+    @Override
+    public void tacarKunai() {
+        System.out.println(nome + " jogou uma Kunai da interface");
     }
 }

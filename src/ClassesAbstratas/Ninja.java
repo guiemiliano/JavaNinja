@@ -15,7 +15,15 @@ public abstract class Ninja {
         this.idade = idade;
     }
 
+    //Também posso ter métodos comuns ou abstratos
+
     //Método abstrato
     public abstract void nomeDoNinja();
+
+    //Método comum
+    public void tacarShuriken(){
+        System.out.println(nome + " jogou uma Shuriken abstrata");
+    }
+
 
 }
