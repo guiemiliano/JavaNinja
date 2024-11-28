@@ -14,4 +14,8 @@ public abstract class Ninja {
         this.aldeia = aldeia;
         this.idade = idade;
     }
+
+    //Método abstrato
+    public abstract void nomeDoNinja();
+
 }
