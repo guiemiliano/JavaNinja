@@ -27,4 +27,9 @@ public abstract class Ninja {
 
     public Ninja() {
     }
+
+    public void habilidadeEspecial(){
+
+    }
+
 }

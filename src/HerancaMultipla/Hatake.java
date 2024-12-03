@@ -33,4 +33,9 @@ public class Hatake extends Ninja implements Sharingan, Anbu, Hokage{
     public void hokageAtivo() {
         System.out.println("Meu nome é "+ nome+ " eu sou um Hokage");
     }
+
+    @Override
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é " + nome + " e esse é meu ataque Hatake, um ataque elétrico");
+    }
 }

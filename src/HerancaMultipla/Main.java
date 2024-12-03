@@ -15,6 +15,13 @@ public class Main {
         kakashi.sharinganAtivado();
         kakashi.ninjaEspecialistaAnbu();
         kakashi.hokageAtivo();
+        kakashi.habilidadeEspecial();
+
+        Uchiha madara = new Uchiha("Madara Uchiha", "Aldeia da folha",
+                50, 100, Rank.JOUNIN);
+
+        madara.sharinganAtivado();
+        madara.habilidadeEspecial();
 
 
 
