@@ -2,8 +2,12 @@ package Polimorfismo;
 
 public class Uchiha extends Ninja{
 
+    /*
+        super se referencia ao construtor da superclasse nesse caso
+     */
 
     public Uchiha() {
+        super();
     }
 
     public Uchiha(String nome, String aldeia, int idade) {

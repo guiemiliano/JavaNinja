@@ -12,5 +12,9 @@ public class Main {
         madara.nome = "Madara Uchiha";
         madara.habilidadeEspecial();
 
+        Uchiha shisui = new Uchiha("Shisui Uchiha",
+                "Aldeia da folha", 30);
+
+        shisui.habilidadeEspecial();
     }
 }
