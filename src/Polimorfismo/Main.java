@@ -12,7 +12,5 @@ public class Main {
         madara.nome = "Madara Uchiha";
         madara.habilidadeEspecial();
 
-
-
     }
 }

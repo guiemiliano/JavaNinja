@@ -2,9 +2,17 @@ package Polimorfismo;
 
 public class Uchiha extends Ninja{
 
+
+    public Uchiha() {
+    }
+
+    public Uchiha(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
+
     /*
-        Override é do segundo pilar de OOP, polimorfismo
-     */
+            Override é do segundo pilar de OOP, polimorfismo
+         */
     @Override
     public void habilidadeEspecial() {
         System.out.println("Meu nome é " + nome + " " +
