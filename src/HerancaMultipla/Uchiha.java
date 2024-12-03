@@ -21,6 +21,7 @@ public class Uchiha extends Ninja implements Sharingan{
 
     @Override
     public void habilidadeEspecial() {
-        System.out.println("Meu nome é " + nome + " e esse é meu Ataque Uchiha, um ataque de fogo");
+        System.out.println("Meu nome é " + nome + " e esse é meu Ataque Uchiha, um ataque de fogo," +
+                " eu já completei: " + numeroDeMissoesConcluidas + " missões");
     }
 }

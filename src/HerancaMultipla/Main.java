@@ -12,6 +12,11 @@ public class Main {
         Hatake kakashi = new Hatake("Kakashi Hatake",
                 "Aldeia da folha", 35);
 
+        kakashi.numeroDeMissoesConcluidas = 70;
+        kakashi.rank = Rank.KAGE;
+
+
+
         kakashi.sharinganAtivado();
         kakashi.ninjaEspecialistaAnbu();
         kakashi.hokageAtivo();
@@ -22,6 +27,7 @@ public class Main {
 
         madara.sharinganAtivado();
         madara.habilidadeEspecial();
+
 
 
 
