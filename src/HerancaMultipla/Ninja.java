@@ -6,6 +6,7 @@ public abstract class Ninja implements EstrategiaDeBatalha{
     int idade;
     int numeroDeMissoesConcluidas;
     Rank rank;
+    final double altura = 1.80;
 
 
     //TODO: Incluir 2 novos atributos: numeroDeMissoesConcluidas, Rank

@@ -8,7 +8,13 @@ public class Main {
         naruto.idade = 16;
 
         naruto.tacarKunai();
+        System.out.println(naruto.altura);
 
+        Bijuu killerBee = new Bijuu();
+
+        killerBee.souJinchuuriki();
+        killerBee.nome = "Killer Bee";
+        killerBee.souJinchuuriki();
 
 
     }
