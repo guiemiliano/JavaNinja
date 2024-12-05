@@ -39,4 +39,20 @@ public class Hatake extends Ninja implements Sharingan, Anbu, Hokage{
         System.out.println("Meu nome é " + nome + " e esse é meu ataque Hatake, um ataque elétrico," +
                 " eu já completei: " + numeroDeMissoesConcluidas + " missões");
     }
+
+    @Override
+    public void inteligenciaDeCombate() {
+        super.inteligenciaDeCombate();
+    }
+
+
+    @Override
+    public void estrategiaDeBatalhaNinja() {
+        super.estrategiaDeBatalhaNinja();
+    }
+
+    @Override
+    public void inteligenciaDeCombate(int qi) {
+        super.inteligenciaDeCombate(qi);
+    }
 }

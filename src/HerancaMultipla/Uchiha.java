@@ -24,4 +24,20 @@ public class Uchiha extends Ninja implements Sharingan{
         System.out.println("Meu nome é " + nome + " e esse é meu Ataque Uchiha, um ataque de fogo," +
                 " eu já completei: " + numeroDeMissoesConcluidas + " missões");
     }
+
+    @Override
+    public void estrategiaDeBatalhaNinja() {
+        super.estrategiaDeBatalhaNinja();
+    }
+
+
+    @Override
+    public void inteligenciaDeCombate() {
+        super.inteligenciaDeCombate();
+    }
+
+    @Override
+    public void inteligenciaDeCombate(int qi) {
+        super.inteligenciaDeCombate(qi);
+    }
 }
